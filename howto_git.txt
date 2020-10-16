@@ -1,0 +1,6 @@
+cd "dir of the repo"
+ls-la         >>>> shows hiden files on a dir
+git status    >>>> shows the status in working directory
+git add .     >>>> traks all of the files untracked on working
+git add <file> >>> traks the specified files
+   
