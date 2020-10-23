@@ -28,8 +28,30 @@ git commit
 a) create a empty repository on github with right name 
 git remote add origin "the link of the repository"
 git remote -v >>> show any remote repository
-git push origin master or git push origin u- origin master
+git push origin master or git push origin u- origin master  
 
+-------------------Syncing Central Repo with Local Repo--------------------- 
+Setting It Up (only do this the initial time)
+Find & copy Central Repo URL
+git remote add upstream  https: .... 
+----------------------------------------------------------------------------- 
+git pull upstream master >>> pull down any changes and sync the local repo with the central repo 
+git add and git commit 
+git push origin master >>>> push your changes up to your fork
+
+----------------- how to create a new brach ----------------------
+git branch >>> shopw the existing branches 
+git checkout >> to swtch betwen branches 
+git checkout -b "name of the new branch" >>> create a ne branch / ej feature-readme-intruction   
+git add "fie" 
+git commit -m "changes"  
+--- to merge ----- 
+git diff >> show the changes
+git diff (from the master  )"branch" >> shows de diferences
+git push u- origin "new branch"
+  
+
+git diff
 
 
 
