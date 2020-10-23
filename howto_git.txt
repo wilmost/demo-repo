@@ -2,5 +2,45 @@ cd "dir of the repo"
 ls-la         >>>> shows hiden files on a dir
 git status    >>>> shows the status in working directory
 git add .     >>>> traks all of the files untracked on working
-git add <file> >>> traks the specified files
-   
+git add <file> >>> traks the spec ified files
+git commit -m " "> adds a coment to the commit
+git push origin master      >>>> 
+git push -f origin master >>> force  the push to the master
+                        note:the tip of your current branch is behind its remote counterpart means that there have been changes on the remote branch that you don’t have locally. and git tells you import new changes from REMOTE and merge it with your code and then push it to remote.
+
+----to generate ssh key ---------------------
+
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+press enter 
+enter a passphrase (optional) 
+$ eval $(ssh-agent -s) >>> start ssh agent 
+ssh-add ~/.ssh/id_rsa >>>> add your ssh private key to the ssh key agent
+$ clip < ~/.ssh/id_rsa.pub >>> copia en el clipboard el public ssh key 
+agregar en github 
+
+-----to generate a local repository---------- 
+create a dir in git directory 
+create a REDME.md file 
+cd to new directory 
+git init >>> to convert the dir into a git repository  
+git add . 
+git commit  
+a) create a empty repository on github with right name 
+git remote add origin "the link of the repository"
+git remote -v >>> show any remote repository
+git push origin master or git push origin u- origin master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
